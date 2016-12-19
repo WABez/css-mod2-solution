@@ -5,23 +5,9 @@
   padding: 0;
 }
 
-.container{
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 h1 {
   margin-bottom: 15px;
   text-align: center;
-}
-
-section {
-  background-color: #f2f3f4;
-  border: 1px solid black;
-  padding: 10px;
-  margin-right: auto;
-  margin-bottom: 10px;
 }
 
 h3 {
@@ -33,14 +19,42 @@ h3 {
   margin-left: auto;
   margin-bottom: 15px;
   position: relative;
-  top: -10px;
-  right: -10px;
+  top: -11px;
+  right: -11px;
   font-family: Helvetica;
-  color: white;
   text-align: right;
 }
 
+#opt1 {
+  background-color: #eacdcd;  
+  color: black;
+}
+
+#opt2 {
+  background-color: #d70b01; 
+  color: white; 
+}
+
+#opt3 {
+  background-color: #e5daba; 
+  color: black; 
+}
+
+section {
+  width: 100%;
+  background-color: #f2f3f4;
+  border: 1px solid black;
+  padding: 10px;
+  clear: both;
+  position: relative;
+}
+
+#content {
+  padding: 10px;
+}
+
 /* Simple Responsive Framework. */
+
 .row {
   width: 100%;
 }
@@ -49,7 +63,6 @@ h3 {
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid black;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -93,7 +106,6 @@ h3 {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid black;
   }
   .col-md-1 {
     width: 8.33%;
